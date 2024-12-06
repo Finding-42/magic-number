@@ -20,7 +20,7 @@
           <nav id="navigation"
               classNames="jmix-main-view-top-menu-navigation">
             <horizontalMenu id="horizontalMenu"
-                width="100%"/>
+                width="100%" visible="false"/>
           </nav>
           <hbox id="userHeaderBox"
               classNames="jmix-main-view-top-menu-user-box">
@@ -38,26 +38,47 @@
       </vbox>
     </navigationBar>
     <initialLayout height="100%">
-      <accordion height="100%">
-        <accordionPanel/>
-        <accordionPanel/>
-        <accordionPanel/>
+      <image id="headLogo" resource="icons/wealth-quest.svg"/>
+      <hbox width="100%" height="34px">
+        <progressBar id="progressBar" value=".2" height="100%" width="100%"/>
+      </hbox>
+      <accordion height="100%" classNames="questions">
+        <accordionPanel id="question1Panel" summaryText="msg://accordionPanel.summaryText"
+        >
+          <vbox>
+            <nativeLabel text="msg://nativeLabel.text" classNames="questions"/>
+            <textArea id="answer1" width="100%" height="100px"/>
+          </vbox>
+        </accordionPanel>
+        <accordionPanel id="question2Panel" summaryText="msg://question2Panel.summaryText">
+          <vbox>
+            <nativeLabel classNames="questions" text="msg://nativeLabel3.text"/>
+            <radioButtonGroup id="answer2RadioButtons" datatype="string"/>
+          </vbox>
+        </accordionPanel>
+        <accordionPanel id="question3Panel" summaryText="msg://question3Panel.summaryText">
+          <vbox>
+            <nativeLabel text="msg://nativeLabel1.text" classNames="questions"/>
+            <textArea id="answer3" width="100%" height="100px"/>
+          </vbox>
+        </accordionPanel>
+        <accordionPanel id="question4Panel" summaryText="msg://question4Panel.summaryText">
+          <vbox>
+            <nativeLabel text="msg://nativeLabel2.text" classNames="questions"/>
+            <textArea id="answer4" width="100%" height="100px"/>
+          </vbox>
+        </accordionPanel>
       </accordion>
-      <vbox>
-        <hbox>
-          <nativeLabel text="John Doe"/>
-
-        </hbox>
-        <hbox>
-          <icon icon="vaadin:map-marker"/>
-          <nativeLabel text="352 Valley Bluff | Wentzville, MO 63385"/>
-        </hbox>
-      </vbox>
-      <hbox>
-        <button classNames="blue-button" text="Message"/>
-        <button classNames="blue-button" text="Call"/>
-        <button text="Account" classNames="blue-button"/>
-        <button id="rewardsButton" classNames="blue-button" text="Rewards"/>
+      <hbox width="100%">
+        <button id="educationButton" text="msg://backButton.text" classNames="blue-button"
+            width="33%"/>
+        <nativeLabel text="msg://nativeLabel4.text" classNames="attention"/>
+      </hbox>
+      <hbox alignItems="STRETCH" spacing="false" width="100%">
+        <button id="myProfileButton" classNames="blue-button" text="msg://button2.text"
+            alignSelf="STRETCH" width="33%"/>
+        <button classNames="blue-button" text="msg://button1.text" width="33%"/>
+        <button text="msg://button.text" classNames="blue-button" width="33%"/>
       </hbox>
     </initialLayout>
   </appLayout>

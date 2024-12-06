@@ -16,8 +16,32 @@
 }
 
 .blue-button {
-  background-color: rgb(34, 99, 212);
-  color: white;
+  background-color: #3b3d3f;
+  border-radius: 0;
+  border: #fff 1px solid;
+  color: #fdd300;
   height: 100px;
+  white-space: normal !important;
   width: 100px;
+  word-wrap: break-word !important;
 }
+
+.questions {
+  font-size: 24px !important;
+  font-weight: bold;
+}
+
+.education {
+  background-color: #fed300;
+}
+
+.education-label {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.attention {
+  font-weight: bold;
+  font-size: 1.05rem;
+}
+

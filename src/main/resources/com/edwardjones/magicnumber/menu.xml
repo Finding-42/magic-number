@@ -7,6 +7,8 @@
           title="msg://com.edwardjones.magicnumber.view.rewards/rewardsView.title"/>
       <item view="magic_MessageView"
           title="msg://com.edwardjones.magicnumber.view.message/messageView.title"/>
+      <item view="magic_EducationView"
+          title="msg://com.edwardjones.magicnumber.view.education/educationView.title"/>
     </menu>
 
 </menu-config>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<view xmlns="http://jmix.io/schema/flowui/view"
+    title="msg://educationView.title">
+  <layout classNames="education">
+    <hbox>
+      <button id="returnButton" icon="vaadin:chevron-left"/>
+    </hbox>
+    <vbox width="100%">
+      <nativeLabel text="msg://nativeLabel.text" classNames="education-label"/>
+      <iframe id="videoIframe1" width="100%" alignSelf="STRETCH"/>
+    </vbox>
+    <vbox width="100%">
+      <nativeLabel text="msg://nativeLabel.text" classNames="education-label"/>
+      <iframe id="videoIframe2" width="100%" alignSelf="STRETCH"/>
+    </vbox>
+  </layout>
+</view>
