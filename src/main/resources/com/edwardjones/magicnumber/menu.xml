@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<menu-config xmlns="http://jmix.io/schema/flowui/menu">
+
+    <menu id="application" title="msg://com.edwardjones.magicnumber/menu.application.title" opened="true">
+        <item view="magic_User.list" title="msg://com.edwardjones.magicnumber.view.user/UserListView.title"/>
+      <item view="magic_RewardsView"
+          title="msg://com.edwardjones.magicnumber.view.rewards/rewardsView.title"/>
+      <item view="magic_MessageView"
+          title="msg://com.edwardjones.magicnumber.view.message/messageView.title"/>
+    </menu>
+
+</menu-config>

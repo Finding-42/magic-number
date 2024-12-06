@@ -1,0 +1,23 @@
+/* Define your styles here */
+
+.jmix-main-view-header {
+  background-color: rgba(223, 223, 255, 0.35);
+}
+
+.jmix-main-view-navigation {
+  background-color: rgba(223, 223, 255, 0.35);
+}
+
+.jmix-main-view-application-title {
+  background-color: rgba(223, 223, 255, 0.35);
+  color: rgb(34, 99, 212);
+  margin: auto auto;
+  text-align: center;
+}
+
+.blue-button {
+  background-color: rgb(34, 99, 212);
+  color: white;
+  height: 100px;
+  width: 100px;
+}

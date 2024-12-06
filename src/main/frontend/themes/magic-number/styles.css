@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('magic-number.css');
+@import url('view/main-view.css');
+@import url('view/main-view-top-menu.css');
+@import url('view/login-view.css');
+
+html {
+  --lumo-primary-color: rgb(7, 100, 249);
+  --lumo-primary-color-50pct: rgba(7, 100, 249, 0.5);
+  --lumo-primary-color-10pct: rgba(7, 100, 249, 0.1);
+  --lumo-primary-text-color: rgb(7, 100, 249);
+  --lumo-secondary-text-color: rgb(50, 51, 56);
+  --lumo-font-size-s: 14px;
+  --lumo-font-size-m: 16px;
+  --lumo-font-size-l: 20px;
+  --lumo-font-family: "Figtree", sans-serif;
+  --lumo-size-m: 1.795rem;
+  --lumo-space-m: .7rem;
+  --lumo-line-height-m: 1.525rem;
+  --lumo-line-height-s: 1.025rem;
+}
+
+/* src/main/resources/static/css/styles.css */
+body {
+  background-color: rgba(223, 223, 255, 0.35);
+}
+
+vaadin-grid {
+  border-top: 1px solid rgb(208, 212, 228);
+  border-bottom: 1px solid rgb(208, 212, 228);
+  border-right: 1px solid rgb(208, 212, 228);
+  border-left: 6px solid rgb(7, 100, 249);
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+vaadin-grid::part(header-cell) {
+  background-color: #edeefb;
+  color: #000000;
+  font-weight: bold;
+}
+
+vaadin-grid::part(cell) {
+  border-color: rgb(208, 212, 228);
+}

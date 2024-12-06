@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<view xmlns="http://jmix.io/schema/flowui/view"
+    title="msg://rewardsView.title">
+  <layout>
+    <button id="ReturnToMainButton" icon="vaadin:chevron-left"/>
+    <flexLayout>
+      <image resource="icons/badge-3.jpg" height="100px"/>
+      <image resource="icons/badge-3.jpg" height="100px"/>
+      <image resource="icons/badge-3.jpg" height="100px"/>
+      <image resource="icons/badge-3.jpg" height="100px"/>
+      <image resource="icons/badge-3.jpg" height="100px"/>
+    </flexLayout>
+
+  </layout>
+</view>
